@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <link href="styles/project.css" rel="stylesheet" type="text/css" >
+      <script src="scripts/contact.js"></script>
+      <link rel="stylesheet" href="//code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css">
+      <link rel="stylesheet" href="/resources/demos/style.css">
+      <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+      <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+      <script src="scripts/jquery.copy-to-clipboard.js"></script>
+      <script type="text/javascript" src="../syntaxhighlighter/scripts/shCore.js"></script>
+      <script type="text/javascript" src="../syntaxhighlighter/scripts/shBrushJScript.js"></script>
+      <script type="text/javascript" src="../syntaxhighlighter/scripts/shBrushXml.js"></script>
+      <title>Sinclair's Portfolio</title>
+   </head>
+   <body>
+      <header>
+         <h1> <img src="images/cam.jpg" alt="logo"></h1>
+      </header>
+      <div class="topnav">
+         <a href="index.html">Home</a>
+         <a href="about.html">About Me</a>
+         <a href="skills.html">Skills</a>
+         <a class="active" href="contact.html">Contact Me</a>
+      </div>
+      <script>
+         $(document).ready(function() { $('#example').guardian(); });
+      </script>
+      <script>
+         $( function() {
+           $( document ).tooltip();
+         } );
+      </script>
+      <style>
+         label {
+         display: inline-block;
+         width: 5em;
+         }
+      </style>
+      <main>
+         <h2>Drop me a line!</h2>
+         <p>Send me a message, or call me for any inquiries. Use my contact form to get in touch with me, and I'll reply ASAP!</p>
+         <h2>Connect with me on LinkedIn! <br>    	 <a href="https://www.linkedin.com/in/cameron-sinclair-27b8211a3/">
+            <img src="images/linkedin.jpg" width="30" height="30" alt="LinkedIn"></a>
+         </h2>
+         <form action="//submit.form" id="ContactUs100" method="post" onsubmit="return ValidateForm(this);">
+            <table style="width:100%;max-width:550px;border:0;" cellpadding="8" cellspacing="0">
+               <tr>
+                  <td>
+                     <label><b>Name:</b><span class="red">*</span></label>
+                  </td>
+                  <td>
+                     <input name="Name" type="text" maxlength="60" data-pattern="alpha" required="required" data-error-message="Name is required" style="width:100%;max-width:250px;" />
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <label for="PhoneNumber">Phone Number:</label>
+                  </td>
+                  <td>
+                     <input name="PhoneNumber" title="Phone Number is optional" type="text" maxlength="43" style="width:100%;max-width:250px;" />
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <label for="FromEmailAddress"><b>Email Address:</b></label>
+                  </td>
+                  <td>
+                     <input name="FromEmailAddress" type="text" maxlength="90" style="width:100%;max-width:250px;" />
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <label for="Comments"><b>Message:</b></label>
+                  </td>
+                  <td>
+                     <textarea name="Comments" rows="7" cols="40" style="width:100%;max-width:350px;"></textarea>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                  </td>
+                  <td>
+                     <input class="myButton" name="skip_Submit" type="submit" value="Submit" />
+                     <script src="https://www.100forms.com/js/FORMKEY:9ZRYH5DLWSZK/SEND:nukacola336@gmail.com" type="text/javascript"></script> 
+                  </td>
+               </tr>
+            </table>
+         </form>
+         <center>
+            <div class="demo">
+               <h2>Cameron Sinclair</h2>
+               Email: nukacola336@gmail.com <br>
+               Phone: 336.458.7073
+            </div>
+
+            <button class="btn btn-primary" data-clipboard-target=".demo">Copy Contact Info</button>
+         </center>
+      </main>
+      <footer>
+         <br />
+         <p>Page brought to you by Sinclair Designs</p>
+         <a href="https://validator.w3.org/check?uri=referer">
+         <img src="images/button-valid-html5.gif" width="88" height="31" alt="Link to HTML validator"></a>
+         <a href="https://jigsaw.w3.org/css-validator/check/referer">
+         <img src="images/button-valid-css.gif" width="88" height="31" alt="Link to CSS validator"></a>
+         <a href="https://www.100forms.com" id="lnk100" title="form to email">Contact Form Source: 100forms.com</a>
+      </footer>
+   </body>
+</html>

@@ -1,0 +1,65 @@
+
+body
+{
+	font-family: Segoe;
+	color: #0ce6ed;
+	background-color: #c91067;
+	margin-left: 75px;
+	margin-right: 75px;
+}
+main
+{
+	font-family: Segoe;
+	color: #0ce6ed;
+	background-color: #c91067;
+	margin-left: 75px;
+	margin-right: 75px;
+}
+
+
+header, footer
+{
+	text-align: center;
+	color: #0ce6ed;
+	font-weight: bold;
+}
+
+h1, h2, h3
+{
+	color: #0ce6ed;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	text-align: center;
+}
+
+h3
+{
+	font-size: 200%;
+	line-height: 0px;
+}
+
+a
+{
+	text-decoration: none;
+	color: #b5d6b2;
+}
+
+a:hover
+{
+	text-decoration: overline underline;
+}
+
+figure
+{
+	text-align: center;
+}
+
+figcaption
+{
+	font-style: italic;
+}
+
+
+nav
+{
+	text-align: center;
+}
